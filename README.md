@@ -17,3 +17,5 @@ To Do
 * Decide on some licensing
 * Add some stuff to this list - or use github issues.
 * Maybe combine my emacs cheatsheet?
+* Integrate ELPA/Marmalade (or upgrade to Emacs 24)
+* Get some decent git integration - probably magit
