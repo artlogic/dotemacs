@@ -36,3 +36,5 @@
 (autoload 'markdown-mode "markdown-mode.el"
   "Major mode for editing Markdown files" t)
 (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+;; markdown mode should have autofill, IMHO
+(add-hook 'markdown-mode-hook 'turn-on-auto-fill)
