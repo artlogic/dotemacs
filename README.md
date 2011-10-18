@@ -19,3 +19,15 @@ To Do
 * Maybe combine my emacs cheatsheet?
 * Integrate ELPA/Marmalade (or upgrade to Emacs 24)
 * Get some decent git integration - probably magit
+* Some modes I should consider:
+ * YASnippet
+ * ido-mode
+ * pymacs/ropemacs?
+ * org-mode
+ * tramp
+ * http://www.emacswiki.org/emacs/RevertBuffer - auto-revert-mode
+ * css-mode?
+* Some functions that might need keybindings:
+ * delete-trailing-whitespace
+ * goto-line
+ 
