@@ -19,6 +19,9 @@ To Do
 * Maybe combine my emacs cheatsheet?
 * Integrate ELPA/Marmalade (or upgrade to Emacs 24)
 * Get some decent git integration - probably magit
+ * Magit is installed, but not the info files - decide how to deal
+   with this.
+ * Consider enabling rebase-mode for magit.
 * Some modes I should consider:
  * YASnippet
  * ido-mode

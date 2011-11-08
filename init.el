@@ -38,3 +38,8 @@
 (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
 ;; markdown mode should have autofill, IMHO
 (add-hook 'markdown-mode-hook 'turn-on-auto-fill)
+
+;; magit
+(add-to-list 'load-path (concat dotfiles-dir "magit"))
+;; taken from 50magit.el
+(autoload 'magit-status "magit" nil t)
