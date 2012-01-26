@@ -43,3 +43,7 @@
 (add-to-list 'load-path (concat dotfiles-dir "magit"))
 ;; taken from 50magit.el
 (autoload 'magit-status "magit" nil t)
+
+;; coffee-mode
+(add-to-list 'load-path (concat dotfiles-dir "coffee-mode"))
+(require 'coffee-mode)
