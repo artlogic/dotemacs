@@ -9,7 +9,13 @@ I created this project after I realized two things:
   
 So here's my attempt to make a sane, maintainable Emacs config for use
 across all my various systems.  This should work in most modern
-versions of Emacs, but I'm only testing with Emacs 23.3 at the moment.
+versions of Emacs, but I'm only testing with Emacs 23.4 at the moment.
+
+Installing
+----------
+
+* Clone this repo to ~/.emacs.d
+* Execute: cd ~/.emacs.d && git submodule init && git submodule update
 
 To Do
 -----
