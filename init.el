@@ -5,7 +5,9 @@
 
 ;; Disable some unneeded visual stuff
 (setq inhibit-startup-screen t)
-(tool-bar-mode -1)
+;; Only disable the toolbar if there's a toolbar to disable
+(when window-system
+  (tool-bar-mode -1))
 
 ;; Optional mode lines
 (column-number-mode t)
